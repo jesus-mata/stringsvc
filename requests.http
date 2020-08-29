@@ -1,0 +1,16 @@
+POST http://localhost:8080/uppercase
+content-type: application/json
+
+{
+    "s": "sample"
+}
+
+POST http://localhost:8080/count
+content-type: application/json
+
+{
+    "s": "sample"
+}
+
+
+GET  http://localhost:8080/metrics
